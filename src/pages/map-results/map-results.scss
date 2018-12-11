@@ -1,0 +1,67 @@
+page-map-results {
+  .derecha{
+    display: block;
+    text-align: center;
+    width: 100vw;
+    justify-content: space-between;
+  }
+
+  .imgheader{
+
+    width: 50%;
+    height: 50%;
+    vertical-align: middle;
+    padding-top: 5px;
+    margin-left: 4vh;
+    margin-right: 4vh; 
+  } 
+
+
+  .cerrar{
+    vertical-align: middle;
+    background: transparent;
+    color: #f0810a;
+  }
+
+  input{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border: 2px solid #f0810a;
+    width: 80%;
+    border-radius: 20px;
+    display: inline;
+  }
+
+  .search{
+    vertical-align: middle;
+    background: transparent;
+    color: #f0810a;
+  }
+
+  .box{
+    height: 7%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+
+  .box::-webkit-scrollbar{
+    display: none;
+  }
+
+  .Botonesfiltros{
+    height: 80%;
+    display: inline-block;
+  }
+
+  .location-map,{
+    height: 60%;
+    text-align: center;
+    width: 100%;
+  }
+
+  .map{
+    height: 100%;
+    width: 95%;
+  }
+}

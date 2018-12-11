@@ -1,0 +1,47 @@
+page-notificaciones {
+
+    ion-navbar{
+        text-align: right;
+        border-bottom: #f0810a 2px solid;
+    }
+
+    .notificaciones{
+        font-size: 5vh;
+        color: #f0810a;
+        font-weight: bold;
+    }
+
+    .titulo{
+      display: inline;  
+      margin-right: 5%;
+      color: #f0810a;
+      font-size: 3vh;  
+    }
+    ion-thumbnai{
+        width: 100vh;
+        justify-content: center;
+    }
+
+    h2{
+        vertical-align: top;
+        display: inline;
+        position: absolute;
+    }
+
+    p{
+        display: inline;
+        margin-left: 0;
+        text-overflow: inherit;
+    }
+    
+    img{
+       display: inline;
+       vertical-align: middle;
+       
+
+    }
+
+    .listicon{
+        font-size: 5vh;
+    }
+}

@@ -1,0 +1,51 @@
+<!--
+  Generated template for the Registro2Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+    <ion-navbar>
+      <img src="http://www.dinamo-ca.com/img/app/logo.jpg">
+    </ion-navbar>
+  </ion-header>
+  
+  
+  <ion-content padding class="bg-image">
+    <form action="" class="formregistro">
+      <div class="contenedor-inputs">
+        <h2>Registro de Empresa...</h2>
+        <input class="input100" type="text" name="Nombre" placeholder="Nombre" required>
+        <input class="input100" type="email" name="Correo" placeholder="Correo" required>
+        <input class="input100" type="text" name="Categoria" placeholder="Categoria" required>
+        <input class="input100" type="text" name="Servicio/Sitio" placeholder="Servicio/Sitio" required>
+        <input class="input48" type="text" name="Whatsapp" placeholder="Whatsapp" required>
+        <input class="input48" type="text" name="Telefonofijo" placeholder="Telefono Fijo" required>
+        <input class="input48" type="text" name="Instagram" placeholder="Instagram" required>
+        <input class="input48" type="text" name="Facebook" placeholder="Facebook" required>
+        <input class="input100" type="text" name="Paginaweb" placeholder="Pagina Web" required>
+        <input class="input100" type="text" name="Direccion" placeholder="Direccion" required>
+        <ion-item>
+            <ion-label>Delivery</ion-label>
+            <ion-toggle></ion-toggle>
+        </ion-item>
+        <ion-item>
+            <ion-label>Horarios</ion-label>
+            <ion-toggle ></ion-toggle>
+        </ion-item>
+        <ion-item>
+            <ion-label>Productos</ion-label>
+            <ion-toggle ></ion-toggle>
+        </ion-item>
+        <br>
+        <input class="btn-enviar" type="submit" value="Registrar"> 
+      </div>
+      <div class="otro"> <p>o puedes registrarte con:</p>
+        <a href="https://es-la.facebook.com/">FACEBOOK</a>
+        <a id="google" href="https://www.google.com.mx/">GOOGLE</a>
+        <h4>¿Ya Tienes Cuenta?</h4>
+        <p class="formlink">Inicia Sesion <u (click)="home()">Aqui</u></p>
+      </div>
+  
+    </form> 
+  </ion-content>

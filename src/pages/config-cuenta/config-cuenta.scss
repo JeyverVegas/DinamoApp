@@ -1,0 +1,52 @@
+page-config-cuenta {
+    ion-navbar{
+        text-align: right;
+        border-bottom: #f0810a 2px solid;
+    }
+
+    .Configuracion{
+        font-size: 5vh;
+        color: #f0810a;
+        font-weight: bold;
+    }
+
+    .titulo{
+      display: inline;  
+      margin-right: 5%;
+      color: #f0810a;
+      font-size: 3vh;  
+    }
+
+    .bg-image {
+        background-image: url(http://www.dinamo-ca.com/img/app/logo.jpg) !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: contain !important;
+      
+      }
+      
+        ion-list{
+          padding: 0;
+          margin: 0;
+          width: 100% !important;
+          background: #fff;
+          border-bottom: #f0810a 2px solid;
+          border-top: #f0810a 2px solid;
+          
+        }
+    
+      .transparente{
+            background: #fff;
+            margin: 0;
+            padding: 0;
+            text-align: left;
+            border-top: #f0810a 2px solid;
+      
+      }
+      
+      .bottonletters{
+        margin-left: 5px;
+        font-size: 2.5vh;
+        font-weight: bold;
+      }
+}

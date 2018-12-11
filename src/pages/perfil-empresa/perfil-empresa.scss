@@ -1,0 +1,45 @@
+page-perfil-empresa {
+
+    
+    .bg-image {
+        background-image: url(http://www.dinamo-ca.com/img/app/logo.jpg) !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: contain !important;
+      }
+
+    .derecha{
+        display: block;
+        text-align: center;
+        width: 100vw;
+        justify-content: space-between;
+      }
+    
+      .imgheader{
+    
+        width: 50%;
+        height: 50%;
+        vertical-align: middle;
+        padding-top: 5px;
+        margin-left: 4vh;
+        margin-right: 4vh; 
+    } 
+    
+    p{
+      margin-right: 40%;
+      display: inline;
+      border-bottom: #f0810a 2px solid;
+    }
+    
+    .cerrar{
+      vertical-align: middle;
+      background: transparent;
+      color: #f0810a;
+    }
+
+    .banner{
+        background: black;
+        height: 20%;
+        color: azure;
+    }
+}

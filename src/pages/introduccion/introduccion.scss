@@ -1,0 +1,39 @@
+page-introduccion {
+  ion-header{
+    display: block;
+    text-align: center;
+  }
+  .imgheader{
+    transform: translate(-15%);
+    width: 50%;
+    height: 50;
+  }  
+     
+    .bg-image {
+  background-image: url(http://www.dinamo-ca.com/img/app/logo.jpg) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+  }
+
+  .contenedor{
+    background: #fff;
+    border-style: outset;
+    overflow: hidden;
+  }
+
+  .slide-image{
+    height: 45vh;
+    width: 60%;
+    border: black 1px solid;
+    background: #fff;
+  }
+
+  .swiper-pagination-bullet-active{
+    background: #f0810a;
+  }
+
+  h2{
+    color: #f0810a;
+  }
+}

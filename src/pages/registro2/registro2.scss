@@ -1,0 +1,124 @@
+page-registro2 {
+
+        width: 90%;
+        height: 90%;
+    
+        h1{
+            margin: 0;
+        padding: 0 0 20px;
+        font-weight: bold;
+        display: block;
+        text-align: center;
+        font-size: 22px;
+        color: #fff
+        }
+        
+        img{
+            width: 50%;
+            height: 50%;
+            transform: translate(25%);
+        } 
+       
+        .bg-image {
+           background-image: url(http://www.dinamo-ca.com/img/app/logo.jpg) !important;
+           background-repeat: no-repeat !important;
+           background-position: center !important;
+           background-size: contain !important;
+        }
+          
+        ion-content{
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            vertical-align: middle;
+            align-content: center;
+        }
+          
+    
+          .formregistro{
+              box-sizing: border-box;
+              width: 95%;
+              max-width: 500px;
+              margin: auto;
+              vertical-align: middle;
+              
+          }
+    
+          .contenedor-inputs{
+              margin-top: 30px;
+              padding-left: 5px;
+              padding-right: 5px;  
+              display: flex;
+              flex-wrap: wrap; 
+              justify-content: space-between;
+              
+    
+          }
+    
+          .input48, .input100{
+              margin-bottom: 8px;
+              padding: 2px; 
+              border: 2px solid #f0810a;
+              border-radius: 20px;
+          }
+    
+          .input48{
+              width: 48%;
+          }
+    
+          .input100{
+              width: 100%;
+          }
+
+          ion-item, ion-label, ion-toggle{
+              background: transparent !important;
+          }
+
+          ion-label{
+              color: #f0810a;
+          }
+    
+          .btn-enviar{
+            margin-top: 10px;  
+            border: none;
+            outline: none;
+            width: 50%;
+            height: 40px;
+            background: rgb(214, 214, 214);
+            color: #f0810a;
+            font-weight: bold;
+            font-size: 18px;
+            border-radius: 20px;
+            transform: translate(50%);
+          }
+    
+          p{
+              text-align: center;
+              font-weight: bold;
+          }
+    
+          .otro{
+              text-align: center;
+              justify-content: space-between;
+          }
+    
+          a{
+              background: #3b5998;
+              color: #fff;
+              padding: 8px;
+              text-decoration: none;
+              border-radius: 20px;                   
+          }
+    
+          a#google{
+              background: #dd4b39;
+              padding-left: 14px;
+              padding-right: 14px;
+          }
+    
+          u{
+              cursor: pointer;
+          }
+    
+    
+}

@@ -1,0 +1,53 @@
+
+
+<ion-header class="derecha">
+
+  <button ion-button menuToggle class="boton"> 
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <img class="imgheader" src="http://www.dinamo-ca.com/img/app/logo.jpg">
+  <button ion-button>
+    <ion-icon name="ios-contact-outline" [navPush]="gestionUsuario"></ion-icon>
+  </button>
+  <input id="buscar1" type="search" placeholder="Buscar...">
+    <button ion-button end class="search" small>
+        <ion-icon name="search"></ion-icon>
+      </button>
+
+</ion-header>
+
+<ion-content padding>
+  <div class="box">
+    <button ion-button medium icon-start class="Botonesfiltros" outline round>
+      Tableros
+    </button>
+    <button ion-button medium icon-start class="Botonesfiltros" outline round>
+      diques
+    </button>
+    <button ion-button medium icon-start class="Botonesfiltros" outline round>
+        Grupo Electrogeno
+    </button>
+    <button ion-button medium icon-start class="Botonesfiltros" outline round>
+        diques
+    </button>
+  </div>          
+  <button ion-button full icon-start margin-bottom>
+    <ion-icon name="locate"></ion-icon>
+    Obtener mi ubicación
+  </button>
+    
+  <div class="location-map">
+    <img src="../../assets/imgs/google-map.PNG" class="map">
+  </div>
+
+  <div>
+    <ion-range [(ngModel)]="zoom" min="0" max="10" pin="true" (ionChange)="onZoomChange()">
+      <ion-icon name="add" range-right color="primary" (click)="onIncrementZoom()"></ion-icon>
+      <ion-icon name="remove" range-left color="primary" (click)="onDecrementZoom()"></ion-icon>
+    </ion-range>
+  </div>
+
+  <div text-center (click)="perfilempresa()">
+    <button ion-button round small>Finalizar</button>
+  </div>
+</ion-content>

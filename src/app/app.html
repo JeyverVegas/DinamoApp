@@ -1,0 +1,21 @@
+<!--De Aca Para Abajo Es el Menu Con las Categorias-->
+<ion-menu id="Menus" [content]="content">
+  <ion-header class="medio">    
+  <ion-toolbar>
+        <ion-title> <p class="parrafomenu">Categorias:</p>
+            <button class="cerrar" ion-button  menuClose>
+                <ion-icon name="md-close"></ion-icon>
+            </button>
+        </ion-title>
+      </ion-toolbar>
+  </ion-header>
+    <ion-content>
+      <ion-list>
+        <button class="botonesmenu" ion-item *ngFor="let item of Paginas" (click)="openPage(item)" menuClose>
+          <ion-icon class="iconomenu" item-right name="{{ item.icon }}"></ion-icon>
+          {{ item.title }}
+        </button>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-nav id="nav" #content [root]="rootPage"></ion-nav>

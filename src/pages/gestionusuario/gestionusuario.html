@@ -1,0 +1,56 @@
+<!--
+  Generated template for the GestionusuarioPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!--De Aca Para Abajo es el Header con la imagen de Dinamo con el Boton de Usuarion y Menu
+y Con la Barra de Buscador-->
+<ion-header class="derecha">
+    <button ion-button menuToggle class="boton"> 
+        <ion-icon name="ios-keypad"></ion-icon>
+      </button>
+      
+    <img class="imgheader" src="http://www.dinamo-ca.com/img/app/logo.jpg">
+    <button ion-button>
+      <ion-icon name="ios-contact-outline" (click)="goback()"></ion-icon>
+    </button>
+    <input type="search" placeholder="Buscar...">
+    <button ion-button end class="search">
+        <ion-icon name="search"></ion-icon>
+      </button>
+</ion-header>
+
+
+<ion-content padding class="bg-image">
+  <ion-list>
+    <ion-item class="usuario">
+        <ion-icon name="ios-contact-outline" class="big"></ion-icon>
+        <h1>JEYVER VEGAS</h1>
+        Tridant16@gmail.com
+    </ion-item>
+    <button ion-item class="transparente" full color="light" (click)="notificaciones()">
+      <p class="bottonletters">Notificaciones</p>
+    </button>
+    
+    <button ion-item class="transparente" full color="light" (click)="configcuenta()">
+      <p class="bottonletters">Configuracion de la Cuenta</p>
+    </button>
+    
+    <button ion-item class="transparente" full color="light">
+      <p class="bottonletters">Guardados</p>
+    </button>
+    
+    <ion-item class="transparente" full color="light">
+      <ion-label class="bottonletters">Recibir Alerta de Ofertas</ion-label>
+      <ion-toggle></ion-toggle>
+    </ion-item>
+    <button ion-item class="transparente" full color="light">
+      <p class="bottonletters">Obten Ayuda</p>
+    </button>
+    <button ion-item class="transparente" full color="light">
+      <p class="bottonletters">Dejanos Tus Comentarios</p>
+    </button>
+  </ion-list>
+</ion-content>
+

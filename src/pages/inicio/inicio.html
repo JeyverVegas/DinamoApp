@@ -1,0 +1,56 @@
+<!--
+  Generated template for the InicioPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<!--De Aca Para Abajo es el Header con la imagen de Dinamo con el Boton de Usuarion y Menu
+y Con la Barra de Buscador-->
+
+<ion-header class="derecha">
+    <button ion-button menuToggle class="boton"> 
+        <ion-icon name="ios-keypad"></ion-icon>
+      </button>
+    <img class="imgheader" src="http://www.dinamo-ca.com/img/app/logo.jpg">
+    <button ion-button>
+      <ion-icon name="ios-contact-outline" (click)="Gestionusuario()"></ion-icon>
+    </button>
+    <input type="search" placeholder="Buscar..." (click)="Buscar()">
+    <button ion-button end class="search" small>
+        <ion-icon name="search" ></ion-icon>
+      </button>
+</ion-header>
+
+
+
+
+    
+  
+
+<ion-content padding class="card-background-page">
+  
+    <ion-card>
+        <img src="../../assets/imgs/Inicio/DIQUE.png"/>
+        <div class="card-title">Diques</div>
+        <div class="card-subtitle">41 Listings</div>
+      </ion-card>
+    
+      <ion-card>
+        <img src="../../assets/imgs/Inicio/GE ISONORADO.PNG"/>
+        <div class="card-title">Grupo Electrogeno</div>
+        <div class="card-subtitle">64 Listings</div>
+      </ion-card>
+    
+      <ion-card>
+        <img src="../../assets/imgs/Inicio/tableros.png"/>
+        <div class="card-title">Tableros</div>
+        <div class="card-subtitle">72 Listings</div>
+      </ion-card>
+    
+      <ion-card>
+        <img src="../../assets/imgs/Inicio/DIQUE.png"/>
+        <div class="card-title">Diques</div>
+        <div class="card-subtitle">28 Listings</div>
+      </ion-card>
+</ion-content>
