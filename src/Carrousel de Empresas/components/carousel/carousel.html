@@ -1,0 +1,21 @@
+<div class="encabezado">
+  <h4>{{ encabezado }}</h4>
+  <div class="encabezado__botones">
+    <button ion-button icon-only small (click)="onMoveSliderToLeft()" [disabled]="isBackButtonDisabled()">
+      <ion-icon name="arrow-back"></ion-icon>
+    </button>
+    <button ion-button icon-only small (click)="onMoveSliderToRight()" [disabled]="isForwardButtonDisabled()">
+      <ion-icon name="arrow-forward"></ion-icon>
+    </button>
+  </div>
+</div>
+
+<div class="slider" (swipeleft)="onSwipeLeft()" (swiperight)="onSwipeRight()">
+  <div class="slider__item" *ngFor="let empresa of empresasEnSlider">
+    <div class="slider__imagen-container">
+      <img [src]="empresa.imgUrl" class="slider__imagen">
+    </div>
+    <p class="slider__nombre">{{ empresa.nombre }}</p>
+    <p class="slider__ofertas">{{ empresa.ofertas.length }} Ofertas</p>
+  </div>
+</div>
