@@ -1,0 +1,29 @@
+<ion-header class="derecha">
+
+  <button ion-button menuToggle class="boton"> 
+    <ion-icon name="ios-keypad"></ion-icon>
+  </button>
+  <img class="imgheader" src="http://www.dinamo-ca.com/img/app/logo.jpg">
+  <button ion-button>
+    <ion-icon name="ios-contact-outline" [navPush]="gestionUsuario"></ion-icon>
+  </button>
+
+</ion-header>
+
+<ion-content>
+  <div class="titulo">TABLEROS</div>
+  <div padding>
+    <form class="searchbar">
+      <input type="text">
+      <button ion-button icon-only clear small color="dark">
+        <ion-icon name="search"></ion-icon>
+      </button>
+    </form>
+    <br>
+    <app-carousel [empresas]="empresas" encabezado="Populares"></app-carousel>
+    <br>
+    <app-carousel [empresas]="empresas" encabezado="Mejor Valorados"></app-carousel>
+    <br>
+    <app-carousel [empresas]="empresas" encabezado="Mejores Precios"></app-carousel>
+  </div>
+</ion-content>

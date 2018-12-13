@@ -1,0 +1,69 @@
+app-carousel {
+  .slider {
+    display: flex;
+
+    &__item {
+      flex: 1 0 30%;
+      border: 1px solid rgba(#000000, .3);
+      position: relative;
+
+      &:not(:last-child) {
+        margin-right: 5px;
+      }
+    }
+
+    &__imagen {
+      height: 100%;
+      width: 100%;
+      display: block;
+
+      &-container {
+        position: relative;
+        height: 120px;
+
+        &::before {
+          content: '';
+          position: absolute;
+          display: block;
+          height: 100%;
+          width: 100%;
+          background-image: linear-gradient(rgba(#000, 0) 30%, rgba(#000, .7));
+        }
+      }
+    }
+
+    &__nombre {
+      position: absolute;
+      bottom: 25px;
+      font-size: 10px;
+      margin: 0;
+      padding: 5px;
+      color: #fff;
+    }
+
+    &__ofertas {
+      align-self: flex-end;
+      height: 25px;
+      line-height: 25px;
+      background-image: linear-gradient(map-get($colors, primary-light), map-get($colors, primary));
+      text-align: right;
+      margin: 0;
+      padding: 0 5px;
+      color: #fff;
+    }
+  }
+
+  .encabezado {
+    display: flex;
+    align-items: center;
+    color: map-get($colors, dark);
+
+    h4 {
+      margin: 0;
+    }
+
+    &__botones {
+      margin-left: auto;
+    }
+  }
+}
