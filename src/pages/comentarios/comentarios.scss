@@ -1,0 +1,83 @@
+page-comentarios {
+    
+    .boton{
+      color: #fff;
+    }  
+
+    .titulo {
+       width: 100%;
+       text-align: right;
+       color: #fff;
+       margin: 0;
+       padding: 0;
+      }
+    
+    .bb1{
+      margin:0;
+      padding: 0;  
+    }
+
+   .bb{
+     margin:0;
+     padding: 0; 
+     color: orange;
+     background: #fff;
+   }
+   //Aca Empiezan los estilos de los Comentarios (y).
+   
+
+   .comments-content{
+     left: 2vw;
+   }
+   ul{
+     list-style: none;
+     padding: 0;
+     overflow: hidden;
+   }
+
+   li{
+     border-bottom: orange 2px solid;
+   }
+
+   .imagen{
+    width: 15%;
+    height: 15%;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+   }
+
+   footer{
+     background: red;
+     color: #fff;
+   }
+
+   .cajadecomentario{
+     padding: 1em;
+   }
+
+   .comentar{
+     height: 60px;
+     width: 85%;
+     border-radius: 10px;
+     border: orange 1px solid;
+     vertical-align: top;
+   }
+
+  .contenenor-botones{
+    text-align: right;
+  }
+   
+   .botones-comentario{
+     display: inline;
+   }
+
+   .boton-enviar{
+    display: inline;
+  }
+   
+   
+   
+}
+
+
